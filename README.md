@@ -8,3 +8,19 @@
 [![Discord](https://img.shields.io/badge/Discord-1f1f2e?style=for-the-badge&logo=discord&logoColor=60a5fa)](https://discord.gg/4K3aBSNB) [![Gmail](https://img.shields.io/badge/Gmail-1f1f2e?style=for-the-badge&logo=gmail&logoColor=60a5fa)](mailto:me.zelvarys@gmail.com) [![YouTube](https://img.shields.io/badge/YouTube-1f1f2e?style=for-the-badge&logo=youtube&logoColor=60a5fa)](https://youtube.com/@incognito-dev07) [![WhatsApp](https://img.shields.io/badge/WhatsApp-1f1f2e?style=for-the-badge&logo=whatsapp&logoColor=60a5fa)](https://wa.me/2349065168872) [![Telegram](https://img.shields.io/badge/Telegram-1f1f2e?style=for-the-badge&logo=telegram&logoColor=60a5fa)](https://t.me/Incognitodev07)
 
 </div>
+
+<div align="center">
+ 
+  <a href="https://github.com/zelvarys/zelvar-validate" > 
+    <img src="https://github-stats-extended.vercel.app/api/pin?username=zelvarys&repo=zelvarys%2Fzelvar-validate&show_owner=true&description_lines_count=3&theme=dark&bg_color=0D1117&color=C9D1D9&line=00CFFF&point=FFFFFF&area=true" width="49%"></a>
+  
+  <a href="https://github.com/zelvarys/github-analytics" > 
+    <img src="https://github-stats-extended.vercel.app/api/pin?username=zelvarys&repo=zelvarys%2Fgithub-analytics&show_owner=true&description_lines_count=3&theme=dark&bg_color=0D1117&color=C9D1D9&line=00CFFF&point=FFFFFF&area=true" width="49%"></a>
+
+  <a href="https://github.com/zelvarys/github-analytics" > 
+    <img src="https://github-stats-extended.vercel.app/api/pin?username=zelvarys&repo=zelvarys%2Fwhatsapp-bot&show_owner=true&description_lines_count=3&theme=dark&bg_color=0D1117&color=C9D1D9&line=00CFFF&point=FFFFFF&area=true" width="49%"></a>
+
+  <a href="https://github.com/zelvarys/github-analytics" > 
+    <img src="https://github-stats-extended.vercel.app/api/pin?username=zelvarys&repo=zelvarys%2Fbrand-website&show_owner=true&description_lines_count=3&theme=dark&bg_color=0D1117&color=C9D1D9&line=00CFFF&point=FFFFFF&area=true" width="49%"></a>
+  
+</div>
