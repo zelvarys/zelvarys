@@ -48,8 +48,8 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .............................................. </tspan><tspan class="value">N/A</tspan>
 <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Termux 0.118.3, Neovim 0.12.5</tspan>
 <tspan x="390" y="150" class="cc">. </tspan>
-<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English, Spanish</tspan>
-<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Coding</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Python, JavaScript, TypeScript</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Lang</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">English, Spanish</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Lang</tspan>.<tspan class="key">Coding</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Python, JavaScript, TypeScript</tspan>
 <tspan x="390" y="210" class="cc">. </tspan>
 <tspan x="390" y="230">- Contact</tspan> -——————————————————————————————————————————————-—-
 <tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Personal</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">me.zelvarys@gmail.com</tspan>
