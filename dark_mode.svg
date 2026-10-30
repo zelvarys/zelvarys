@@ -42,19 +42,19 @@ text, tspan {white-space: pre;}
 </text>
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">zelvarys@github</tspan> -————————————————————————————————————————-—-
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">System</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Linux, Android 15</tspan>
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Name</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Osasan Olusola Olawumi</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">English, Spanish</tspan>
 <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">19 years, 5 months, 22 days</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Termux 0.118.3, Neovim 0.12.5</tspan>
-<tspan x="390" y="110" class="cc">. </tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Lang</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">English, Spanish</tspan>
-<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Lang</tspan>.<tspan class="key">Dev</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Python, JS/TS, Golang, Bash</tspan>
-<tspan x="390" y="170" class="cc">. </tspan>
-<tspan x="390" y="190">- Contact</tspan> -——————————————————————————————————————————————-—-
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Personal</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">me.zelvarys@gmail.com</tspan>
-<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Work</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">osasanolusola2007@gmail.com</tspan>
-<tspan x="390" y="250" class="cc">. </tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">zelvarys.github.io/portfolio</tspan>
-<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">https://discord.gg/ws2Tzwrh</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Education</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">Software Engineering</tspan>
+<tspan x="390" y="130" class="cc">. </tspan>
+<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">Linux Mint, Android 15</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Lang</tspan>.<tspan class="key">Dev</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Python, JS/TS, Golang, Bash</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">Open to collaboration</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Termux 0.118, Neovim 0.12.5</tspan>
+<tspan x="390" y="230" class="cc">. </tspan>
+<tspan x="390" y="250">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">E-mail</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">me.zelvarys@gmail.com</tspan>
+<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">zelvarys.github.io/portfolio</tspan>
 <tspan x="390" y="310" class="cc">. </tspan>
 <tspan x="390" y="330">- Metrics</tspan> -——————————————————————————————————————————————-—-
 <tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ..... </tspan><tspan class="value" id="repo_data">11</tspan> (<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">61</tspan>) | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............ </tspan><tspan class="value" id="star_data">86</tspan>
