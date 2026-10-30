@@ -14,7 +14,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)) + '/..')
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] # 'zelvarys'
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+QUERY_COUNT = {'user_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 # Retry settings for GitHub's flaky GraphQL backend
 MAX_RETRIES = 4
@@ -307,16 +307,14 @@ def stars_counter(data):
   return total_stars
 
 
-def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def svg_overwrite(filename, age_data, star_data, repo_data, contrib_data, loc_data):
   tree = etree.parse(filename)
   root = tree.getroot()
   justify_format(root, 'age_data', age_data, 49)
-  justify_format(root, 'commit_data', commit_data, 23)
   justify_format(root, 'star_data', star_data, 14)
   justify_format(root, 'repo_data', repo_data, 7)
   justify_format(root, 'contrib_data', contrib_data)
-  justify_format(root, 'follower_data', follower_data, 10)
-  justify_format(root, 'loc_data', loc_data[2], 18)
+  justify_format(root, 'loc_data', loc_data[2], 17)
   justify_format(root, 'loc_add', loc_data[0])
   justify_format(root, 'loc_del', loc_data[1], 7)
   tree.write(filename, encoding='utf-8', xml_declaration=True)
@@ -342,18 +340,6 @@ def find_and_replace(root, element_id, new_text):
     element.text = new_text
 
 
-def commit_counter(comment_size):
-  total_commits = 0
-  filename = 'profile/'+hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest()+'.txt'
-  with open(filename, 'r') as f:
-    data = f.readlines()
-  cache_comment = data[:comment_size]
-  data = data[comment_size:]
-  for line in data:
-    total_commits += int(line.split()[2])
-  return total_commits
-
-
 def user_getter(username):
   query_count('user_getter')
   query = '''
@@ -366,20 +352,6 @@ def user_getter(username):
   variables = {'login': username}
   request = simple_request(user_getter.__name__, query, variables)
   return {'id': request.json()['data']['user']['id']}, request.json()['data']['user']['createdAt']
-
-
-def follower_getter(username):
-  query_count('follower_getter')
-  query = '''
-  query($login: String!){
-    user(login: $login) {
-      followers {
-        totalCount
-      }
-    }
-  }'''
-  request = simple_request(follower_getter.__name__, query, {'login': username})
-  return int(request.json()['data']['user']['followers']['totalCount'])
 
 
 def query_count(funct_id):
@@ -413,19 +385,17 @@ if __name__ == '__main__':
   formatter('age calculation', age_time)
   total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
   formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
-  commit_data, commit_time = perf_counter(commit_counter, 7)
   star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
   repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
   contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
-  follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 
   for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index])
 
-  svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-  svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+  svg_overwrite('dark_mode.svg', age_data, star_data, repo_data, contrib_data, total_loc[:-1])
+  svg_overwrite('light_mode.svg', age_data, star_data, repo_data, contrib_data, total_loc[:-1])
 
   print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-    '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
+    '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + star_time + repo_time + contrib_time)),
     ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
 
   print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
