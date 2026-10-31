@@ -44,7 +44,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="30">zelvarys@github</tspan> -————————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Name</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Osasan Olusola Olawumi</tspan>
 <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">English, Spanish</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">19 years, 5 months, 22 days</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">19 years, 5 months, 23 days</tspan>
 <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Education</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">Software Engineering</tspan>
 <tspan x="390" y="130" class="cc">. </tspan>
 <tspan x="390" y="150" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">Linux Mint, Android 15</tspan>
