@@ -44,7 +44,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="30">zelvarys@github</tspan> -————————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Name</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Osasan Olusola Olawumi</tspan>
 <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">English, Spanish</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">19 years, 5 months, 24 days</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">19 years, 5 months, 25 days</tspan>
 <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Education</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">Software Engineering</tspan>
 <tspan x="390" y="130" class="cc">. </tspan>
 <tspan x="390" y="150" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">Linux Mint, Android 15</tspan>
@@ -58,6 +58,6 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="310" class="cc">. </tspan>
 <tspan x="390" y="330">- Metrics</tspan> -——————————————————————————————————————————————-—-
 <tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ..... </tspan><tspan class="value" id="repo_data">11</tspan> (<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">61</tspan>) | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............ </tspan><tspan class="value" id="star_data">86</tspan>
-<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc" id="loc_data_dots"> ........... </tspan><tspan class="value" id="loc_data">87,247</tspan> ( <tspan class="addColor" id="loc_add">125,492</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">38,245</tspan><tspan class="delColor">--</tspan> )
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc" id="loc_data_dots"> ........... </tspan><tspan class="value" id="loc_data">87,279</tspan> ( <tspan class="addColor" id="loc_add">130,209</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">42,930</tspan><tspan class="delColor">--</tspan> )
 </text>
 </svg>
