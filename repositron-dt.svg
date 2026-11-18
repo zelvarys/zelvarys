@@ -6,8 +6,8 @@
       .title { font: 600 20px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.3px; }
       .owner { font: 500 20px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.3px; }
       .body { font: 400 20px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.8px; }
-      .meta { font: 400 14.5px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.3px; }
-      .count { font: 500 15px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+      .meta { font: 400 17.5px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.3px; }
+      .count { font: 500 16px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
     </style>
   </defs>
 
@@ -27,8 +27,8 @@
   <text x="24" y="82" class="body" fill="#8b949e" textLength="802" lengthAdjust="spacing">An interactive terminal dashboard that scans GitHub repositories and surfaces</text>
   <text x="24" y="110" class="body" fill="#8b949e">activity, tool adoption, bus factor, dependencies, and workflow health</text>
 
-  <circle cx="30" cy="143.5" r="6" fill="#3178c6"/>
-  <text x="44" y="149" class="meta" fill="#8b949e">TypeScript</text>
+  <circle cx="31" cy="143.5" r="7" fill="#3178c6"/>
+  <text x="47" y="150" class="meta" fill="#8b949e">TypeScript</text>
 
   <g transform="translate(786, 135.5)">
     <path fill="#8b949e" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
